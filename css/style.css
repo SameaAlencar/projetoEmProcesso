@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/calculadoras-interativas-1024x538.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-color: #0000004e ;
+    background-blend-mode: darken;
+    overflow: hidden;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+main{
+    width: 50%;
+    height: 800px;
+   
+}
+
+

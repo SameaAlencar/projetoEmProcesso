@@ -1,0 +1,49 @@
+header {
+    width: 50%;
+    height: 90px;
+    margin: auto;
+    /*display: flex;
+    /*justify-content:center;
+    align-items: center;*/
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgba(241, 110, 23, 0.664);
+    /*margin-bottom: 44%;*/
+    
+    
+  }
+
+.menu >ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    transition: color 0.5s;
+}
+      
+.sub-menu > li:hover > a {
+    color: #e50914;
+
+
+}
+
+.sub-menu > li:hover > a {
+    color: #1c78c3;
+  }
+  
+  .sub-menu li:hover {
+    display: flex;
+  }
+  .menu ul li{
+    width: auto;
+    margin-top: 5%;
+    
+
+  }
