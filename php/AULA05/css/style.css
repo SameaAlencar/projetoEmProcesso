@@ -45,12 +45,16 @@ input{
      
     }
 
-#resultado{
+/*#resultado{
     width: 180px;
     height: 180px;
     background-color: khaki;
     padding-top: 2px;
     font-size: 15px;
     font: bold;
+}*/
+#segundo-resultado {
+    width: 150px;
+    height: 150px;
+    overflow: auto;
 }
-
