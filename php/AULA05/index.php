@@ -27,7 +27,7 @@ if(isset($_POST["btnCalc"]))
             if($numContador == 0 || $numTabuada == 0)
                 echo (ERRO_MSG_TABUADA_ZERO);
             else {
-                $resultado = multiplicar($numTabuada, $numContador);
+                $resultado = X($numTabuada, $numContador);
             }
         }
     }
