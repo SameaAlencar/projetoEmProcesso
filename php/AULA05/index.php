@@ -54,8 +54,8 @@ if(isset($_POST["btnCalc"]))
         <div id="form">
             <form name= "frmTabuada" method="POST" action="index.php">
             
-                Tabuada: <input type="text" name="txtv1" value="<?($numTabuada)?>" > <br>
-                Contador: <input type="text" name="txtv2" value="<?($numContador)?>" > <br>
+                Tabuada: <input type="text" name="txtv1" value="" > <br>
+                Contador: <input type="text" name="txtv2" value="" > <br>
 
                 <div id="resultado">
                 </div>

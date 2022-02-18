@@ -58,8 +58,8 @@ function X($multiplicando, $multiplicador)
 
         
         while ($contador <= $numMultiplicador) {
-            $resultadoLocal = $numMultiplicando * $contador;
-            $resultado = $resultado . ("$numMultiplicando X $contador = " . ("$resultado2") . '<br/>');
+            $resultado2= $numMultiplicando * $contador;
+            $resultado = $resultado . ("$numMultiplicando X $contador = $resultado2 ". '<br/>');
             $contador++;   
         }
 
